@@ -1,0 +1,191 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration: none;
+    color: #0956b5;
+
+}
+ul li{
+    list-style: none;
+}
+.header{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;;
+}
+.header .logo img {
+    width: 117px;
+    height: auto;
+    cursor: pointer;
+}
+.header-list{
+    display: flex;
+    gap: 25px;
+}
+.header-item:last-child{
+    position: relative;
+}
+.header-link{
+    font-size: 17px;
+    
+    display: inline-block;
+}
+.header-link:hover{
+    text-decoration: underline;
+}
+.header-item.languae{
+    color: #0956b5;
+
+}
+.header-item-languaes{
+    background-color: #fff;
+    min-width: 130px;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    right: -18px;
+    top: 0;
+    display: none;
+}
+.header-item-languaes li{
+    padding: 8px ;
+    margin: 6px;
+    cursor: pointer;
+    display: block;
+    color: #000;
+}
+.header-item-languaes li:hover{
+    background-color: #eae9e9;
+    border-radius: 8px;
+}
+.header-item:last-child:hover .header-item-languaes{
+    display: block;
+    
+}
+.conainer{
+    display: flex;
+    justify-content: space-between;
+}
+.aside-content{
+    width: 500px;
+    background-color: #faf8f8;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aside-content img{
+    max-width: 360px;
+
+}
+.conainer{
+    padding: 30px;
+}
+.main-content{
+    flex: 1;
+}
+.main-content .heading{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.main-content .form{
+    width: 350px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-content .form-input{
+    height : 43px;
+    margin: 22px 0;
+}
+.main-content input{
+    padding: 12px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #181818;
+}
+.main-content input::placeholder{
+    font-size: 16px;
+}
+.form-help{
+    display: flex;
+    justify-content: space-between;
+}
+.form-help a{
+    font-size: 18px;
+    display: inline-block;
+}
+.form-btn {
+    margin: 12px 0;
+}
+.form-btn button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    color: #fff;
+    background-color: #3681dd;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.form-btn button:hover{
+    cursor: pointer;
+    background-color: #0956b5;
+}
+.social-login{
+    margin-top: 30px;
+}
+.social-login .title{
+    position: relative;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    text-align: center;
+    
+}
+.social-login .title::before{
+    content: "";
+    height: 1px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 12px;
+    background-color: #ededf4;
+}
+.social-login .title .text{
+    background-color: #fff;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: inline-block;
+    line-height: 24px;
+    position: relative;
+    z-index: 1;
+    color: #747487;
+
+}
+.social-login-list{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.social-login-list .icon-social{
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 6px;
+
+}
+.policy{
+    margin-top: 30px;
+    line-height: 25px;
+}
